@@ -3,7 +3,7 @@ const app = express();
 
 const path = require('path');
 
-var port = process.env.Path|| 3000;
+var port = process.env.Port|| 3000;
 
 app.use(express.static(path.join(__dirname,'../public')));
 
